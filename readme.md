@@ -17,18 +17,6 @@ Este proyecto es un sistema web de OCR (Optical Character Recognition) desarroll
   - Tiempo de procesamiento
   - Cantidad de texto detectado
 - Soporte para OCR en español e inglés
-
----
-
-# Tecnologías utilizadas
-
-- Python
-- Django
-- OpenCV
-- Tesseract OCR
-- Pillow
-- SQLite
-
 ---
 
 # Dependencias necesarias
