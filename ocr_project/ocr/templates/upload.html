@@ -1,0 +1,43 @@
+<h1>Upload Image</h1>
+
+<form method="POST" enctype="multipart/form-data">
+
+    {% csrf_token %}
+
+    <input type="file" name="image">
+
+    <br><br>
+
+    <label>Choose preprocessing filter:</label>
+
+    <select name="filter">
+
+        <option value="none">
+            None
+        </option>
+
+        <option value="gray">
+            Grayscale
+        </option>
+
+        <option value="threshold">
+            Threshold
+        </option>
+
+        <option value="blur">
+            Blur Reduction
+        </option>
+
+        <option value="sharpen">
+            Sharpen
+        </option>
+
+    </select>
+
+    <br><br>
+
+    <button type="submit">
+        Upload
+    </button>
+
+</form>
