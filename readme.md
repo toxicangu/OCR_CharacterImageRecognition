@@ -1,6 +1,6 @@
 Angel Octavio Mercado Perez | A01772335
 
-# OCR Image Text Detection System
+# OCR Reconocimiento de Texto en Imagen
 
 Este proyecto es un sistema web de OCR (Optical Character Recognition) desarrollado con Django, OpenCV y Tesseract OCR. La aplicación permite subir imágenes desde una interfaz HTML, aplicar filtros de preprocesamiento opcionales y extraer automáticamente el texto contenido en las imágenes. El texto detectado y las métricas de procesamiento se almacenan posteriormente en una base de datos.
 
